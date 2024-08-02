@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Project</title>
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- Style css -->
@@ -14,7 +16,7 @@
 <body>
 
     <!-- header -->
-    <header id="header">
+    <header id="header" class="pad-20">
         <div class="container">
             <nav class="nav navbar">
                 <div class="logo">
@@ -28,15 +30,118 @@
                     <li>Blog</li>
                     <li>Contact us</li>
                 </ul>
-                <button class="btn btn-primary border-0">Join us</button>
+                <button class="btn btn-primary border-0 fw-bold">Join us</button>
             </nav>
         </div>
     </header>
 
     <!-- Book an appointment section -->
 
-    <section>
-        
+    <section id="appointment-section" class="pad-70">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-6">
+                    <div class="appointment">
+                        <h1 class="fw-bold fs-1 mb-4">
+                            Your <span class="linear-gradient-blue fw-bold">trusted partner</span> <br> in digital
+                            healthcare.
+                        </h1>
+                        <p class="mb-4">
+                            <span class="linear-gradient-blue fw-bold">Empowering Your Health at Every Step.</span>
+                            Experience personalized medical <br> care from the comfort of your home. Connect with <span
+                                class="linear-gradient-blue fw-bold">certified doctors,</span> or <br> manage
+                            prescriptions, and schedule appointments with ease. Ready to <br> take control of your
+                            health? <span class="linear-gradient-blue fw-bold">Get Started</span> or Book an Appointment
+                            today.
+                        </p>
+                        <button class="d-flex align-items-center btn btn-primary border-0">
+                            <p class="m-0 fw-bold">Book an appointment</p>
+                            <i class="ri-arrow-drop-right-line fs-2"></i>
+                        </button>
+                        <p class="mt-4 appoint-p2">
+                            Trusted by millions across the globe:
+                        </p>
+                        <ul class="trusted-by m-0 p-0 ">
+                            <li>
+                                <img src="./assets/images/Trusted by.png" alt="trusted-by">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="doc-img position-relative">
+                        <div class="text-end">
+                            <img src="./assets/images/doctur.png" alt="doctor" class="">
+                        </div>
+                        <div
+                            class="happy-customer position-absolute bg-white border bg-color border-info-subtle rounded">
+                            <div class="happy-img mb-2">
+                                <img src="./assets/images/Ellipse 6.png" alt="chokra">
+                                <img src="./assets/images/Ellipse 7.png" alt="chokra">
+                                <img src="./assets/images/Ellipse 8.png" alt="chokra">
+                                <img src="./assets/images/Ellipse 9.png" alt="chokra">
+                                <span class="fw-bold">2400 <span class="text-info">+</span></span>
+                            </div>
+                            <h6 class="text-info fw-bold m-0">Happy Customer</h6>
+                            <ul class="d-flex align-items-center p-0 m-0 text-warning">
+                                <li><i class="ri-star-s-fill"></i></li>
+                                <li><i class="ri-star-s-fill"></i></li>
+                                <li><i class="ri-star-s-fill"></i></li>
+                                <li><i class="ri-star-s-fill"></i></li>
+                                <li><i class="ri-star-half-s-fill"></i></li>
+                                <span class="text-black fs-12">(4.7 Stars)</span>
+                            </ul>
+                        </div>
+                        <div
+                            class="easy-booking d-flex gap-2 bg-white border-transparent bg-color position-absolute rounded">
+                            <i class="ri-star-s-fill bg-info-subtle text-primary"></i>
+                            <p class="fw-bold m-0">Easy Appointment Booking</p>
+                        </div>
+                        <div
+                            class="what-people-say position-absolute position-relative bg-color border border-info-subtle rounded-4 p-3 fs-12">
+                            <i class="ri-double-quotes-l position-absolute text-primary"></i>
+                            <p class="m-0 fw-bold">Good Doctors like you replace the <br> fear of illness with trust in
+                                recovery</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="container">
+                        <div class="book-now pad-70">
+                            <div class="border p-4 rounded-4">
+                                <h2 class="fw-bold fs-3 mb-4">Easily book an appointment in 3 simple steps.</h2>
+                                <div class="d-flex gap-5 ">
+                                    <div class="contact-detail">
+                                        <div class="d-flex align-items-center gap-2 fw-bold mb-2">
+                                            <i class="ri-mail-fill fs-5"></i>
+                                            <span class="fs-12">Email Address</span>
+                                        </div>
+                                        <input type="text" placeholder="Enter Your Email Address" class="fs-12 p-2">
+                                    </div>
+                                    <div class="contact-detail">
+                                        <div class="d-flex align-items-center gap-2 fw-bold mb-2">
+                                            <i class="ri-phone-fill fs-5"></i>
+                                            <span class="fs-12">Email Address</span>
+                                        </div>
+                                        <input type="text" placeholder="Enter Your Contact number" class="fs-12 p-2">
+                                    </div>
+                                    <div class="contact-detail">
+                                        <div class="d-flex align-items-center gap-2 fw-bold mb-2">
+                                            <i class="ri-calendar-fill fs-5"></i>
+                                            <span class="fs-12">Email Address</span>
+                                        </div>
+                                        <input type="text" placeholder="Select date of appointment" class="fs-12 p-2">
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary book-btn">Book Now <i class="ri-checkbox-circle-fill text-white"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -46,7 +151,7 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
 
         });
     </script>

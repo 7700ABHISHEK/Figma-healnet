@@ -1,46 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-*{
+* {
     list-style: none;
     text-decoration: none;
     font-family: "Manrope", sans-serif;
 }
 
-body{
+:root{
+    --main-color: #0069AB;
+}
+
+body {
     background-color: #f9fdff;
 }
 
-header{
+.pad-20 {
     padding: 20px;
-}   
+}
 
-.nav ul li{
+.pad-70 {
+    padding: 70px;
+}
+
+.nav ul li {
     font-weight: 600;
     position: relative;
 }
 
-.nav ul li::after{
+.nav ul li::after {
     content: "";
     position: absolute;
     width: 0;
-    border: 1px solid #0069AB;
+    border: 1px solid var(--main-color);
     bottom: 0;
     visibility: hidden;
     right: 0;
     transition: 0.5s all linear;
 }
 
-.nav ul li:hover::after{
+.nav ul li:hover::after {
     visibility: visible;
     width: 100%;
     left: 0;
 }
 
-.active{
-    color:#0069AB;
+.active {
+    color: var(--main-color);
 }
 
-.nav button{
-    background: linear-gradient(to right, #A7E2FF, #0095DE );
-    padding: 10px 24px ;
+.linear-gradient-blue {
+    background: -webkit-linear-gradient(to right, #A7E2FF, #0095DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0095DE;
+}
+
+.nav button {
+    background: linear-gradient(to right, #A7E2FF, #0095DE);
+    padding: 10px 24px;
+}
+
+.nav button:hover {
+    background: linear-gradient(to right, #0095DE , #A7E2FF );
+}
+
+.appointment button{
+    padding: 2px 24px;
+    background: linear-gradient(to right, #A7E2FF, #0095DE);
+}
+
+.appoint-p2{
+    color: #B0B0B0;
+}
+
+.trusted-by li img{
+    width: 290px;
+}
+
+.doc-img img {
+    height: 400px;
+}
+
+.bg-color{
+    background-color: #fafdff;
+}
+
+.happy-customer{
+    padding: 10px 20px;
+    top: 50%;
+    right: -10%;
+}
+
+.happy-customer .happy-img img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-left: -10px;
+}
+
+.happy-customer h6{
+    font-size: 14px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.easy-booking{
+    color: var(--main-color);
+    padding: 6px 10px;
+    top: 75%;
+    left: 25%;
+}
+
+.what-people-say{
+    top: 95%;
+    right: -20px;
+}
+
+.what-people-say i{
+    top: -43px;
+    font-size: 50px;
+}
+
+.book-now{
+    color: var(--main-color);
+}
+
+.contact-detail i{
+    color: var(--main-color);
+}
+.contact-detail input{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+.contact-detail input::placeholder{
+    color: rgba(0, 0, 0, 0.218);
+}
+
+.book-btn{
+    margin-top: 37px;
 }
