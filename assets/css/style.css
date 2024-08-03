@@ -84,6 +84,10 @@ body {
     background-color: #fafdff;
 }
 
+.pad-100{
+    padding: 100;
+}
+
 .happy-customer{
     padding: 10px 20px;
     top: 50%;
@@ -106,7 +110,6 @@ body {
 }
 
 .easy-booking{
-    color: var(--main-color);
     padding: 6px 10px;
     top: 75%;
     left: 25%;
@@ -123,7 +126,7 @@ body {
 }
 
 .book-now{
-    color: var(--main-color);
+    z-index: 2;
 }
 
 .contact-detail i{
@@ -140,4 +143,33 @@ body {
 
 .book-btn{
     margin-top: 37px;
+}
+
+.appoint-backround{
+    width: 100%;
+    top: 0;
+}
+
+.gradient-1{
+    z-index: -1;
+    bottom: 90px;
+    left: 340px;
+}
+
+.main-color{
+    color: var(--main-color);
+}
+
+.waves-1{
+    top: 24%;
+    left: 11%;
+}
+
+.linear-gradient-blue-backround{
+    background: linear-gradient(to right, #A7E2FF, #0095DE);
+}
+
+.waves-2{
+    bottom: 0px;
+    right: 11%;
 }

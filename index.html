@@ -37,7 +37,10 @@
 
     <!-- Book an appointment section -->
 
-    <section id="appointment-section" class="pad-70">
+    <section id="appointment-section" class="pad-70 position-relative">
+        <div class="appoint-backround position-absolute z-n1">
+            <img src="./assets/images/Vector 1 (1).png" alt="vector" width="100%">
+        </div>
         <div class="container">
             <div class="row d-flex justify-content-between">
                 <div class="col-6">
@@ -93,7 +96,7 @@
                             </ul>
                         </div>
                         <div
-                            class="easy-booking d-flex gap-2 bg-white border-transparent bg-color position-absolute rounded">
+                            class="easy-booking main-color d-flex gap-2 bg-white border-transparent bg-color position-absolute rounded">
                             <i class="ri-star-s-fill bg-info-subtle text-primary"></i>
                             <p class="fw-bold m-0">Easy Appointment Booking</p>
                         </div>
@@ -107,37 +110,149 @@
                 </div>
                 <div class="col-12">
                     <div class="container">
-                        <div class="book-now pad-70">
-                            <div class="border p-4 rounded-4">
+                        <div class="book-now main-color pad-70">
+                            <div class="border p-4 rounded-4 bg-white">
                                 <h2 class="fw-bold fs-3 mb-4">Easily book an appointment in 3 simple steps.</h2>
                                 <div class="d-flex gap-5 ">
-                                    <div class="contact-detail">
-                                        <div class="d-flex align-items-center gap-2 fw-bold mb-2">
-                                            <i class="ri-mail-fill fs-5"></i>
-                                            <span class="fs-12">Email Address</span>
+                                    <div class="col-3">
+                                        <div class="contact-detail">
+                                            <div class="d-flex align-items-center gap-2 fw-bold mb-2">
+                                                <i class="ri-mail-fill fs-5"></i>
+                                                <span class="fs-12">Email Address</span>
+                                            </div>
+                                            <input type="text" placeholder="Enter Your Email Address" class="fs-12 p-2">
                                         </div>
-                                        <input type="text" placeholder="Enter Your Email Address" class="fs-12 p-2">
                                     </div>
-                                    <div class="contact-detail">
-                                        <div class="d-flex align-items-center gap-2 fw-bold mb-2">
-                                            <i class="ri-phone-fill fs-5"></i>
-                                            <span class="fs-12">Email Address</span>
+                                    <div class="col-3">
+                                        <div class="contact-detail">
+                                            <div class="d-flex align-items-center gap-2 fw-bold mb-2">
+                                                <i class="ri-phone-fill fs-5"></i>
+                                                <span class="fs-12">Email Address</span>
+                                            </div>
+                                            <input type="text" placeholder="Enter Your Contact number" class="fs-12 p-2">
                                         </div>
-                                        <input type="text" placeholder="Enter Your Contact number" class="fs-12 p-2">
                                     </div>
-                                    <div class="contact-detail">
-                                        <div class="d-flex align-items-center gap-2 fw-bold mb-2">
-                                            <i class="ri-calendar-fill fs-5"></i>
-                                            <span class="fs-12">Email Address</span>
+                                    <div class="col-3">
+                                        <div class="contact-detail">
+                                            <div class="d-flex align-items-center gap-2 fw-bold mb-2">
+                                                <i class="ri-calendar-fill fs-5"></i>
+                                                <span class="fs-12">Email Address</span>
+                                            </div>
+                                            <input type="text" placeholder="Select date of appointment" class="fs-12 p-2">
                                         </div>
-                                        <input type="text" placeholder="Select date of appointment" class="fs-12 p-2">
                                     </div>
-                                    <div>
-                                        <button class="btn btn-primary book-btn">Book Now <i class="ri-checkbox-circle-fill text-white"></i></button>
+                                    <div class="col-3">
+                                        <div>
+                                            <button class="btn btn-primary book-btn">Book Now <i class="ri-checkbox-circle-fill text-white"></i></button>
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="gradient-1 position-absolute">
+                                    <img src="./assets/images/backround-gradient.png" alt="gradient" width="100%">
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Services Section -->
+
+    <section id="top-services" class=" position-relative">
+        <div class="container">
+            <div class="waves-1 position-absolute">
+                <img src="./assets/images/waves.png" alt="waves">
+            </div>
+            <div class="top-services">
+                <div class="service-offer text-center pad-20">
+                    <h2 class="mb-4">Top <span class="linear-gradient-blue fw-bold">services</span> we offer</h2>
+                    <p class="appoint-p2 fs-12 fw-bold">In today’s fast-paced world, your health deserves the utmost attention and convenience. That’s <br> why HealNet offers a suiteof integrated services designed to cater to your healthcare needs digitally:</p>
+                </div>
+                <div class="pt-5">
+                    <div class="col-12 d-flex gap-5 justify-content-center mb-5">
+                        <div class="col-7">
+                            <div class="online-consultations border border-info-subtle border-2 rounded-4 p-4">
+                                <div class="mb-3">
+                                    <img src="./assets/images/video-icon.png" alt="video-icon">
+                                </div>
+                                <h5 class="main-color fw-bold mb-3">Online Consultations</h5>
+                                <p class="appoint-p2 fw-bold">
+                                    Consult with top doctors across various specialties via video or <br> chat communication. It’s totally secure, private, and convenient. <br> Choose the best time for an in-person visit with our easy-to-use <br> scheduling system, or proceed with our online consultation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="online-consultations border border-info-subtle border-2 rounded-4 p-2 ps-3">
+                                <div class="mb-3 pt-2">
+                                    <img src="./assets/images/calender.png" alt="calender">
+                                </div>
+                                <h5 class="main-color fw-bold mb-3">Booking Appointments</h5>
+                                <p class="appoint-p2 fw-bold pb-4">
+                                    Choose the best time for an in-person <br> visit with our easy-to-use scheduling <br> system, or proceed with our online <br> consultation features.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center gap-4">
+                        <div class="col-4">
+                            <div class="online-consultations border border-info-subtle border-2 rounded-4 p-2 ps-4">
+                                <div class="mb-3 pt-2">
+                                    <img src="./assets/images/RX icon.png" alt="RX">
+                                </div>
+                                <h5 class="main-color fw-bold mb-3">Prescriptions</h5>
+                                <p class="appoint-p2 fw-bold pb-3">
+                                    Receive and renew prescriptions <br> digitally after your consultation <br> with our specialists .
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="online-consultations border border-info-subtle border-2 rounded-4 p-2 ps-4">
+                                <div class="mb-3 pt-2">
+                                    <img src="./assets/images/Notes.png" alt="Notes">
+                                </div>
+                                <h5 class="main-color fw-bold mb-3">Medical Notes</h5>
+                                <p class="appoint-p2 fw-bold pb-3">
+                                    Obtain necessary medical notes <br> for work or school with only a <br> few clicks of hassle.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="online-consultations border border-info-subtle border-2 rounded-4 p-2 ps-4">
+                                <div class="mb-3 pt-2">
+                                    <img src="./assets/images/medicine.png" alt="medicine">
+                                </div>
+                                <h5 class="main-color fw-bold mb-3">Medicine Refills</h5>
+                                <p class="appoint-p2 fw-bold pb-3">
+                                    Skip the pharmacy queues and <br> save time + energy by ordering <br> medicine refills online.                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="waves-2 position-absolute">
+                <img src="./assets/images/waves.png" alt="waves">
+            </div>
+        </div>
+    </section>
+
+    <!-- Get-to-know Section -->
+
+    <section id="get-to-know" class="pad-70">
+        <div class="container border border-info-subtle rounded-4">
+            <div class="get-to-know p-5">
+                <h2 class="text-center mb-5"> <span class="linear-gradient-blue fw-bold">HealNet’s Story:</span> Get to know us</h2>
+                <div class="let-more d-flex gap-5">
+                    <div>
+                        <img src="./assets/images/lady-doc.png" alt="">
+                    </div>
+                    <div class="">
+                        <p>
+                            HealNet is more than just an online medical service; it’s a movement <br> towards accessible, efficient, and compassionate healthcare for all. <br> Founded by a team of visionary doctors, healthcare professionals, and <br> technology experts, we are driven by the mission to deliver <br> exceptional medical care directly to you, no matter where you are. Our <br> platform is built on the pillars of trust, innovation, and patient- <br> centricity, ensuring that every interaction is personalized and every <br> treatment plan is tailored to your unique needs. With a network of <br> licensed practitioners from diverse medical fields, we guarantee <br> comprehensive care that’s just a click away.
+                        </p>
+                        <button class="linear-gradient-blue-backround text-white py-2 px-4 rounded border-0">Learn more about us</button>
                     </div>
                 </div>
             </div>
