@@ -49,7 +49,7 @@ body {
 }
 
 .linear-gradient-blue {
-    background: -webkit-linear-gradient(to right, #A7E2FF, #0095DE);
+    background: linear-gradient(to right, #A7E2FF, #0095DE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #0095DE;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .bg-color{
-    background-color: #fafdff;
+    background-color: #d1e6f5e3;
 }
 
 .pad-100{
@@ -174,3 +174,60 @@ body {
     right: 11%;
 }
 
+.no1{
+    padding: 10px 20px;
+}
+
+.text-grey{
+    color: #6D6D6D;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.dot-line::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 120px;
+    background-color: #B6E6FF;
+    top: 35%;
+    left: 50%;
+}
+
+.plus{
+    right: 35%;
+    top: 23%;
+}
+
+.patient-text h2{
+    font-size: 40px;
+}
+
+.patient-text p{
+    margin-top: 29px;
+}
+
+.counter{
+    height: 100px;
+    width: 100px;
+}
+
+.globe-1{
+    top: 25%;
+}
+
+.globe-2{
+    bottom: 6%;
+    right: 5%;
+}
+
+.specialist-text h2{
+    font-size: 40px;
+}
+
+.specialist-text p{
+    margin-top: 29px;
+}
