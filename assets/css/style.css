@@ -235,3 +235,7 @@ body {
 .linear-gradient-blue-2{
     background-image: linear-gradient( to left, #35BDFF,  #008CD0  );
 }
+
+footer{
+    background-color: #F2FAFF;
+}
