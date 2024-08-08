@@ -6,7 +6,7 @@
     font-family: "Manrope", sans-serif;
 }
 
-:root{
+:root {
     --main-color: #0069AB;
 }
 
@@ -60,140 +60,141 @@ body {
 }
 
 .nav button:hover {
-    background: linear-gradient(to right, #0095DE , #A7E2FF );
+    background: linear-gradient(to right, #0095DE, #A7E2FF);
 }
 
-.d-none1{
+.d-none1 {
     display: none;
 }
 
-.appoint-backround{
+.appoint-backround {
     background-image: url(../images/vector.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top;
 }
 
-.appointment button{
+.appointment button {
     padding: 2px 24px;
     background: linear-gradient(to right, #A7E2FF, #0095DE);
 }
 
-.appoint-p2{
+.appoint-p2 {
     color: #B0B0B0;
 }
 
-.trusted-by li img{
+.trusted-by li img {
     width: 290px;
 }
 
-.bg-color{
+.bg-color {
     background-color: #d1e6f5e3;
 }
 
-.pad-100{
+.pad-100 {
     padding: 100;
 }
 
-.quotes{
+.quotes {
     left: -19%;
     top: -150%;
 }
 
-.happy-customer{
+.happy-customer {
     padding: 10px 20px;
     top: 50%;
     right: -10%;
 }
 
-.happy-customer .happy-img img{
+.happy-customer .happy-img img {
     height: 40px;
     width: 40px;
     object-fit: contain;
     margin-left: -10px;
 }
 
-.happy-customer h6{
+.happy-customer h6 {
     font-size: 14px;
 }
 
-.fs-12{
+.fs-12 {
     font-size: 12px;
 }
 
-.easy-booking{
+.easy-booking {
     padding: 6px 10px;
     top: 75%;
     left: -10%;
 }
 
-.what-people-say{
+.what-people-say {
     top: 95%;
     right: -20px;
 }
 
-.what-people-say i{
+.what-people-say i {
     top: -43px;
     font-size: 50px;
 }
 
-.book-now{
+.book-now {
     z-index: 2;
 }
 
-.contact-detail i{
+.contact-detail i {
     color: var(--main-color);
 }
-.contact-detail input{
+
+.contact-detail input {
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.192);
 }
 
-.contact-detail input::placeholder{
+.contact-detail input::placeholder {
     color: rgba(0, 0, 0, 0.218);
 }
 
-.book-btn{
+.book-btn {
     margin-top: 37px;
 }
 
-.gradient-1{
+.gradient-1 {
     z-index: -1;
     bottom: -21%;
     left: -6%;
 }
 
-.main-color{
+.main-color {
     color: var(--main-color);
 }
 
-.waves-1{
+.waves-1 {
     top: -8%;
     left: -9%;
 }
 
-.linear-gradient-blue-backround{
+.linear-gradient-blue-backround {
     background: linear-gradient(to right, #A7E2FF, #0095DE);
 }
 
-.waves-2{
+.waves-2 {
     bottom: -7%;
     right: -17%;
 }
 
-.no1{
+.no1 {
     padding: 10px 20px;
 }
 
-.text-grey{
+.text-grey {
     color: #6D6D6D;
 }
 
-.fs-14{
+.fs-14 {
     font-size: 14px;
 }
 
-.dot-line::after{
+.dot-line::after {
     content: "";
     display: inline-block;
     position: absolute;
@@ -204,45 +205,45 @@ body {
     left: 50%;
 }
 
-.plus{
+.plus {
     right: 35%;
     top: 23%;
 }
 
-.patient-text h2{
+.patient-text h2 {
     font-size: 40px;
 }
 
-.patient-text p{
+.patient-text p {
     margin-top: 29px;
 }
 
-.counter{
+.counter {
     height: 100px;
     width: 100px;
 }
 
-.globe-1{
+.globe-1 {
     top: 25%;
 }
 
-.globe-2{
+.globe-2 {
     bottom: -37%;
     right: -8%;
 }
 
-.specialist-text h2{
+.specialist-text h2 {
     font-size: 40px;
 }
 
-.specialist-text p{
+.specialist-text p {
     margin-top: 29px;
 }
 
-.linear-gradient-blue-2{
-    background-image: linear-gradient( to left, #35BDFF,  #008CD0  );
+.linear-gradient-blue-2 {
+    background-image: linear-gradient(to left, #35BDFF, #008CD0);
 }
 
-footer{
+footer {
     background-color: #F2FAFF;
 }
